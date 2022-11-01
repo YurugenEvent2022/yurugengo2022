@@ -1,0 +1,7 @@
+---
+enable: true
+title: "スポンサー"
+clients:
+  - image: "images/client/valuebooks.png"
+  - image: "images/client/spotify.png"
+---

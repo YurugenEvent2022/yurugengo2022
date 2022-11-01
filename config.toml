@@ -1,0 +1,61 @@
+baseURL = ''
+languageCode = 'ja-JP'
+paginate = 6
+#theme= "coHub"
+title = 'ゆる言語学ラジオ大忘年会2022'
+ 
+[Menu]
+  # Main Menu
+  [[menu.Main]]
+  name = "イベント"
+  url= "#gallery"
+  weight = 1
+  [[menu.Main]]
+  name = "チケット"
+  url= "#pricing"
+  weight = 2
+  [[menu.Main]]
+  name = "タイムテーブル"
+  url= "#timetable"
+  weight = 3
+  [[menu.Main]]
+  name = "更新情報 "
+  url= "#blog"
+  weight = 4
+  [[menu.Main]]
+  name = "FAQ"
+  url= "#faq"
+  weight = 5
+
+[params]
+  aboutPageURL = "blog"
+  contactLink = "contact"
+  copyright = "© {year} <a href=\"https://yurugengo.com/\" target=\"_blank\">ゆる言語学ラジオ </a>"
+  googleAnalytics = ""
+  logo = "images/logo.png"
+  footerlogo = "images/logo.png"
+  footerDescription = "※本サイトは非公式の有志によって作成されています。"
+
+  [params.address]
+  address = "ベルサール飯田橋ファースト B1F"
+  openingDesc = "〒112-0004 東京都文京区後楽２丁目６−１"
+
+  # Socail icons
+  [[params.social]]
+  icon = "ti-youtube"
+  url = "https://www.youtube.com/channel/UCmpkIzF3xFzhPez7gXOyhVg"
+  weight = 1
+  [[params.social]]
+  icon = "ti-twitter-alt"
+  url = "https://twitter.com/yuru_gengo"
+  weight = 2
+  [[params.social]]
+  icon = "ti-sharethis"
+  url = "https://spoti.fi/3tJ3z0L"
+  weight = 3
+  [[params.social]]
+  icon = "ti-world"
+  url = "https://yurugengo.com/s"
+  weight = 4
+  
+  

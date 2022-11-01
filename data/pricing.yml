@@ -1,0 +1,20 @@
+---
+enable: true
+title: "チケット"
+subtitle: "チケットは [Peatix](https://yurugengo2022.peatix.com/) にて販売しています。"
+itemPrices:
+  - packcage: "現地参加チケット"
+    description: >
+                ベルサール飯田橋ファースト現地（1ドリンク、配信アーカイブ付）
+    price: 3,900
+    badge: 
+    available:
+    buttonTarget: "https://yurugengo2022.peatix.com/"
+  - packcage: "配信チケット"
+    description: >
+                ステージ配信の視聴チケット（配信アーカイブ付）
+    price: 2,700
+    badge: popular
+    available: OK
+    buttonTarget: "https://peatix.com/sales/event/3338569/tickets"
+---
