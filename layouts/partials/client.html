@@ -12,7 +12,7 @@
         <div class="clients-slider">
           {{ range .clients}}
           <div class="clients-slider-item">
-            <img src="{{ .image | absURL}}" alt="{{ .image}}">
+            <img src="{{ .image | absURL}}" alt="{{ .alt}}" />
           </div>
           {{end}}
         </div>
