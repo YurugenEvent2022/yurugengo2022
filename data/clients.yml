@@ -3,5 +3,7 @@ enable: true
 title: "スポンサー"
 clients:
   - image: "images/client/valuebooks.png"
+    alt: VALUE BOOKS
   - image: "images/client/spotify.png"
+    alt: Spotify
 ---
