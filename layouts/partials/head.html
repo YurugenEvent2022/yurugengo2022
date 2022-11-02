@@ -1,7 +1,7 @@
   <head>
     <meta charset="utf-8" />
     <title>{{.Title}}</title>
-
+    <meta name="theme-color" content="#eadcce">
     {{ "<!--Meta For No Index-->" | safeHTML }}
     <meta name="robots" content="noindex, Nofollow, Noimageindex">
 
@@ -15,7 +15,9 @@
     {{ "<!-- Critical CSS -->" | safeHTML }}
     {{$style :=  resources.Get "scss/critical.scss" | resources.ToCSS | resources.Minify }}
     <link href="{{ $style.Permalink }}" rel="stylesheet" />
-  
+
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
 
     {{"<!-- Favicon -->" | safeHTML}}
     <link rel="shortcut icon" href="{{"images/favicon.ico" | absURL}}" type="image/x-icon" />

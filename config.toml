@@ -36,6 +36,12 @@ title = 'ゆる言語学ラジオ大忘年会2022'
   footerlogo = "images/logo.png"
   footerDescription = "※本サイトは非公式の有志によって作成されています。"
 
+  #Open Graph
+  images = ["/images/main.jpg"]
+  title = "ゆる言語学ラジオ大忘年会2022特設サイト"
+  description = " ゆる言語学ラジオが贈る、2022年最後を飾る大忘年会(とほまち) "
+
+
   [params.address]
   address = "ベルサール飯田橋ファースト B1F"
   openingDesc = "〒112-0004 東京都文京区後楽２丁目６−１"
@@ -58,4 +64,5 @@ title = 'ゆる言語学ラジオ大忘年会2022'
   url = "https://yurugengo.com/s"
   weight = 4
   
-  
+[taxonomies]
+  series = 'series'
