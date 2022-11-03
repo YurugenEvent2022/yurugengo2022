@@ -6,7 +6,7 @@
           <img src="{{ .Site.Params.footerlogo | absURL}}" alt="logo">
         </div> -->
         <p class="footer-description">
-          {{ .Site.Params.footerDescription}}
+          {{ .Site.Params.footerDescription | markdownify }}
         </p>
         <div class="footer-text-block">
           <!-- <p>

@@ -31,12 +31,15 @@ title = 'ゆる言語学ラジオ大忘年会2022'
   aboutPageURL = "blog"
   contactLink = "contact"
   copyright = "© {year} <a href=\"https://yurugengo.com/\" target=\"_blank\">ゆる言語学ラジオ </a>"
-  googleAnalytics = ""
+
   logo = "images/logo.png"
   footerlogo = "images/logo.png"
-  footerDescription = "※本サイトは非公式の有志によって作成されています。"
+  footerDescription = "※本サイトは[非公式の有志](https://github.com/YurugenEvent2022/yurugengo2022)によって作成されています。"
 
-  #Open Graph
+  # Google Analytics
+  googleAnalytics = "G-BC43SDB1Y7"
+
+  #Open Graph / Twitter Cards 
   images = ["/images/main.jpg"]
   title = "ゆる言語学ラジオ大忘年会2022特設サイト"
   description = " ゆる言語学ラジオが贈る、2022年最後を飾る大忘年会(とほまち) "
@@ -61,7 +64,7 @@ title = 'ゆる言語学ラジオ大忘年会2022'
   weight = 3
   [[params.social]]
   icon = "ti-world"
-  url = "https://yurugengo.com/s"
+  url = "https://yurugengo.com/"
   weight = 4
   
 [taxonomies]

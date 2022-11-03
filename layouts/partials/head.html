@@ -23,9 +23,8 @@
     <link rel="shortcut icon" href="{{"images/favicon.ico" | absURL}}" type="image/x-icon" />
     <link rel="icon" href="{{"images/favicon.png" | absURL}}" type="image/x-icon" />
 
-    {{ with .Site.Params.googleAnalytics }}
     {{ "<!-- Global Site Tag (gtag.js) - Google Analytics -->" | safeHTML }}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -34,7 +33,6 @@
       gtag('config', '{{ . }}');
       
     </script>
-    {{ end }}
 
     
   </head>
